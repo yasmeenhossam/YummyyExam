@@ -1,0 +1,225 @@
+body {
+    background-color: #000000f2;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.loading-screen {
+    inset: 0;
+    z-index: 9999999999;
+    background-color: #000;
+    display: flex;
+}
+.fa-5x {
+    font-size: 5em;
+}
+.fa {
+    font-family: var(--fa-style-family,"Font Awesome 6 Free");
+    font-weight: var(--fa-style,900);
+}
+.strip-header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    z-index: 55555555;
+    background-color: #f8f6f6;
+    text-align: center;
+    transition: all 0.6s ease;
+}
+.strip-logo {
+    padding: 25px 0;
+}
+.strip-logo img {
+    height: 48px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.strip-toggel-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+i {
+    cursor: pointer;
+}
+.strip-toggel-menu i {
+    font-size: 25px;
+}
+.strip-social-icon {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+}
+.fas {
+    font-family: "Font Awesome 6 Free";
+}
+.navbarmenu {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 250px;
+    height: 100vh;
+    z-index: 5555;
+    background-color: #000;
+    transform: translateX(-100%);
+    transition: all 0.6s ease;
+}
+.open-menu {
+    transform: scale(1) !important;
+}
+.navbarmenu ul {
+    padding-left: 30px;
+    height: 300px;
+   
+}
+.navbarmenu li {
+    padding-top: 500px;
+
+}
+element.style {
+    opacity: 1;
+    padding-top: 25px;
+}
+li {
+    list-style: none !important;
+}
+.navbarmenu ul li a {
+    color: #f9f6f6 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+.navitem a {
+    cursor: pointer;
+}
+a {
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.navsocial {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+.navsocial a {
+    padding-left: 15px;
+    font-size: 14px;
+}
+.fab {
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+}
+.fas {
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+}
+.navsocial span {
+    color: #999;
+}
+.mmm {
+    left: 12.5%;
+    z-index: 999;
+    top: 0;
+    padding-top: 30px;
+    background-color: #0D0D0D;
+}
+.sm-loading {
+    z-index: 999;
+    inset: 0;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.movie {
+    cursor: pointer;
+    overflow: hidden;
+}
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.77);
+    font-weight: 100;
+    transition: all 1s;
+}
+.movie:hover .layer {
+    top: 0;
+    transition: all 1s;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+    color: inherit;
+}
+.text-left {
+    text-align: left!important;
+}
+.d-flex {
+    flex-wrap: wrap;
+}
+.awldiv
+{
+    text-align: left;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.youtube {
+    background-color: #F70000;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;
+}
+.colorcity {
+    color: #e65a50ab;
+}
+.coloriintg  {
+    color: #9ee650ab;
+}
+.inputcont {
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.1)!important;
+
+}
+.form-control {
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    color: #fff;
+    font-weight: 300;
+}
